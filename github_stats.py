@@ -4,7 +4,7 @@ from github import Github
 from github.GithubException import GithubException
 from tqdm import tqdm
 
-api = Github("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")
+api = Github("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")
 
 # Get organization repos count
 org = api.get_organization("CardoAI")
